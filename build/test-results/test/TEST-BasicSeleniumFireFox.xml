@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="BasicSeleniumFireFox" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-03-03T20:40:49" hostname="ERICK-MARTINEZ" time="16.524">
+  <properties/>
+  <testcase name="goToGoogle()" classname="BasicSeleniumFireFox" time="16.524"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+1646340050459	geckodriver	INFO	Listening on 127.0.0.1:57561
+1646340051426	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54424" "-no-remote" "-profile" "C:\\Users\\ASUS\\AppData\\Local\\Temp\\rust_mozprofilenojZji"
+1646340051969	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ASUS\\AppData\\Local\\Temp\\rust_mozprofilenojZji\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54424/devtools/browser/18fa53c3-b366-4cf7-b3c8-799a5364644f
+1646340054371	Marionette	INFO	Listening on port 56568
+1646340054679	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Mar 03, 2022 4:40:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://todo.ly"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://todo.ly"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1646340064927	Marionette	INFO	Stopped listening on port 56568
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+]]></system-err>
+</testsuite>
