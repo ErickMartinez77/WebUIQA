@@ -1,4 +1,60 @@
+BasicSeleniumCreateProject.java
+ BasicSeleniumCreateProject
 BasicSeleniumFireFox.java
  BasicSeleniumFireFox
-BasicSelenium.java
- BasicSelenium
+control/ProjectTitle.java
+ control.ProjectTitle
+factoryBrowser/FactoryBrowser.java
+ factoryBrowser.FactoryBrowser
+singleton/Session.java
+ singleton.Session
+factoryBrowser/IBrowser.java
+ factoryBrowser.IBrowser
+control/Control.java
+ control.Control
+pages/MenuSection.java
+ pages.MenuSection
+factoryBrowser/FireFox.java
+ factoryBrowser.FireFox
+control/TextBox.java
+ control.TextBox
+control/Image.java
+ control.Image
+factoryBrowser/Edge.java
+ factoryBrowser.Edge
+pages/LoginModal.java
+ pages.LoginModal
+factoryBrowser/Chrome.java
+ factoryBrowser.Chrome
+basic/BasicSelenium.java
+ basic.BasicSelenium
+control/Label.java
+ control.Label
+control/Button.java
+ control.Button
+testClean/BaseTodoly.java
+ testClean.BaseTodoly
+control/Section.java
+ control.Section
+pages/pagesCreate/NewProject.java
+ pages.pagesCreate.NewProject
+pages/pagesUpdate/OptionsModal.java
+ pages.pagesUpdate.OptionsModal
+pages/MainPage.java
+ pages.MainPage
+pages/pagesCreate/MainPageCreate.java
+ pages.pagesCreate.MainPageCreate
+pages/pagesUpdate/MainPageUpdate.java
+ pages.pagesUpdate.MainPageUpdate
+testClean/LoginTest.java
+ testClean.LoginTest
+testClean/UpdateTest.java
+ testClean.UpdateTest
+testClean/CreateTest.java
+ testClean.CreateTest
+testClean/FullNameChangeTest.java
+ testClean.FullNameChangeTest
+pages/SettingsFullNamePage.java
+ pages.SettingsFullNamePage
+testClean/DeleteTest.java
+ testClean.DeleteTest
